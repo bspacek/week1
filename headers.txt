@@ -1,5 +1,6 @@
 # Spacek HW0 Headers
 
+
 Request Headers
 User-Agent: PostmanRuntime/7.26.10
 Identifies who and what is requesting, in this case Postman is the application.
@@ -52,3 +53,4 @@ Forces browser to use Content-Type that was provided.
 
 Alt-Svc: h3-29=":443"; ma=2592000,h3-T051=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
 Gives a different way to reach the service – Alternative Service
+
