@@ -1,1 +1,55 @@
 # Spacek_CSCI3916_HW0
+
+Request Headers
+User-Agent: PostmanRuntime/7.26.10
+Identifies who and what is requesting, in this case Postman is the application.
+
+Accept: */*
+Identifies what data will be sent back from the server.
+
+Postman-Token: 761898b9-7bd8-443e-a5cf-57ee949776c8
+
+Host: www.googleapis.com
+The domain name of the server.
+
+Accept-Encoding: gzip, deflate, br
+What encoding is acceptable to send back from the server.
+
+Connection: keep-alive
+Determines how long the connections stays open after the transaction.
+
+
+Response Headers
+
+Content-Type: application/json; charset=UTF-8
+Tells what type of media is being sent, here it is a json.
+
+Vary: Origin
+Vary: X-Origin
+Vary: Referer
+Indicates how to match request headers to determine if a cached response is allowed.
+
+Content-Encoding: gzip
+Indicate the compression algorighm.
+
+Date: Sat, 30 Jan 2021 13:28:19 GMT
+Date/Time message originated.
+
+Server: ESF
+The software used by the origin server to handle the request.
+
+Cache-Control: private
+Directives for incoming and outgoing caching mechanisms.
+
+X-XSS-Protection: 0
+This is cross-site scripting and this enables/disables filtering.
+
+X-Frame-Options: SAMEORIGIN
+Indicates a browser is/isn’t allowed to render a page as a <frame> <iframe> <embed> or <object>
+
+X-Content-Type-Options: nosniff
+Forces browser to use Content-Type that was provided.
+
+Alt-Svc: h3-29=":443"; ma=2592000,h3-T051=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
+Gives a different way to reach the service – Alternative Service
+
